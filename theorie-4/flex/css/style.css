@@ -1,0 +1,31 @@
+body{
+background-color: gray;
+
+
+}
+
+.container {
+display: flex;
+height: 150px;
+flex-direction: row; /* gere la direction de lalignement */
+flex-wrap: nowrap;   /* gère le retour a la ligne la compréssion des blocs*/
+gap: 10px 20px;       /* gère espacement entre les blocs 20px, 20px 20px , top right*/
+ 
+justify-content: space-between; /* gère l'espacement entre les blocs : A NOTER */
+align-items: center;
+}
+
+.square {
+width: 100px;
+height: 100px;
+background-color: black;
+color: white;
+margin-bottom: 10px;
+
+}
+
+.four {
+background-color: tomato;
+order: -1;
+
+}

@@ -1,0 +1,55 @@
+/*
+
+balise {
+ propriété-css: valeurs;
+}
+
+
+*/
+
+body {
+    
+    background-color: tomato;
+}
+
+ 
+ h1, h2, h3, h4,h5, h6, p {
+
+color: #FFFFFF;
+
+ }
+
+/* Selectioner un élément via un class */
+
+.bleue {
+
+     color: rgb(0, 0, 125);
+}
+
+.blanc {
+
+ color:#FFFFFF
+
+}
+
+.bleue { color: blue;
+
+}
+
+.italic  {
+
+font-style: italic;
+font-weight: 200; /* 200 /400 /500 /600 ... 900 */
+}
+
+.couleur-vert {
+
+  color: green;
+
+}
+/* Selectioner via un id */
+
+#titre-h5 {
+
+    opacity: 0.5;
+}

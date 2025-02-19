@@ -1,0 +1,98 @@
+  /*verifier le lien avec le html*/
+
+.body {
+
+background-color: aqua;
+
+}
+
+img {
+
+  width: 200px;
+  height: 200px;
+
+}
+
+
+
+
+
+/* STYLISATION DE TEXTES */
+
+
+.intro {
+
+background-color: beige;
+
+
+}
+
+
+
+h1{
+
+background-color: gray;
+
+
+
+}
+
+p {
+
+background-color: black;
+color: white ;
+text-align: right;
+
+}
+
+ .center {
+    text-align: center ;
+
+
+ }
+
+  .right{
+
+    text-align: right;
+  }
+
+  .left {
+
+
+ text-align: left;
+  }
+
+/*FLEX*/ 
+.flex {
+
+background-color: azure;
+
+
+}
+
+div {
+
+  background-color: blue;
+}
+
+.title{
+
+  text-align: center;
+}
+
+.cover{
+
+  display: flex;
+  align-items: center;
+}
+
+.bloc {
+
+  padding: 10px;
+  background-color: brown;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid; 
+  margin: 10px;
+
+}
